@@ -171,7 +171,7 @@ def compare(condition=['N','P','K','humidity','temperature','ph','rainfall']):
 # In[11]:
 
 
-# Distriute the crops based on season
+# Distrbiute the crops based on season
 
 print("Summer crops")
 print(data[(data['temperature'] > 30) & (data['humidity'] > 50)]['label'].unique())
